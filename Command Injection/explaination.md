@@ -1,6 +1,5 @@
 # 💀 Command Injection — Detailed Study Notes
 
-> **Source:** [PayloadsAllTheThings/Command Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection)
 > **Also Known As:** Shell Injection, OS Command Injection, RCE (Remote Code Execution)
 > **Audience:** Cybersecurity students, ethical hackers, bug bounty hunters
 > **Disclaimer:** শুধুমাত্র authorized system এবং lab environment এ practice করো।

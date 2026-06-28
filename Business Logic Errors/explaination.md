@@ -1,6 +1,5 @@
 # 🧠 Business Logic Errors — Detailed Study Notes
 
-> **Source:** [PayloadsAllTheThings/Business Logic Errors](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Business%20Logic%20Errors)
 > **Audience:** Cybersecurity students, ethical hackers, bug bounty hunters
 > **Disclaimer:** শুধুমাত্র authorized system এবং lab environment এ practice করো।
 

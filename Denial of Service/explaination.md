@@ -1,6 +1,5 @@
 # 💥 Denial of Service (DoS) — Detailed Study Notes
 
-> **Source:** [PayloadsAllTheThings/Denial of Service](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Denial%20of%20Service)
 > **Audience:** Cybersecurity students, ethical hackers, bug bounty hunters
 > **Disclaimer:** ⚠️ DoS testing অত্যন্ত sensitive। শুধুমাত্র authorized scope এবং নিজের lab environment এ practice করো। Production system এ test করা illegal এবং unethical।
 

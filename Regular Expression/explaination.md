@@ -1,6 +1,5 @@
 # 🔴 Regular Expression (ReDoS) — Detailed Study Notes
 
-> **Source:** [PayloadsAllTheThings/Regular Expression](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Regular%20Expression)
 > **Full Name:** Regular Expression Denial of Service
 > **Audience:** Cybersecurity students, ethical hackers, bug bounty hunters
 > **Disclaimer:** শুধুমাত্র authorized system এবং lab environment এ practice করো।

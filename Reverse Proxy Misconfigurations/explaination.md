@@ -1,6 +1,5 @@
 # 🔄 Reverse Proxy Misconfigurations — Detailed Study Notes
 
-> **Source:** [PayloadsAllTheThings/Reverse Proxy Misconfigurations](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Reverse%20Proxy%20Misconfigurations)
 > **Primary Targets:** Nginx, Caddy, HAProxy, Apache
 > **Audience:** Cybersecurity students, ethical hackers, bug bounty hunters
 > **Disclaimer:** শুধুমাত্র authorized system এবং lab environment এ practice করো।

@@ -1,7 +1,5 @@
 # 🔑 JWT — JSON Web Token Attacks — Detailed Study Notes
 
-> **Source:** [PayloadsAllTheThings/JWT](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/JSON%20Web%20Token)
-> **RFC:** [RFC 7519](https://www.rfc-editor.org/rfc/rfc7519)
 > **Audience:** Cybersecurity students, ethical hackers, bug bounty hunters
 > **Disclaimer:** শুধুমাত্র authorized system এবং lab environment এ practice করো।
 

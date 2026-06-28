@@ -1,6 +1,5 @@
 # 🌊 HTTP Parameter Pollution (HPP) — Detailed Study Notes
 
-> **Source:** [PayloadsAllTheThings/HTTP Parameter Pollution](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/HTTP%20Parameter%20Pollution)
 > **Audience:** Cybersecurity students, ethical hackers, bug bounty hunters
 > **Disclaimer:** শুধুমাত্র authorized system এবং lab environment এ practice করো।
 

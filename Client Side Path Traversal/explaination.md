@@ -1,6 +1,5 @@
 # 🔀 Client-Side Path Traversal (CSPT) — Detailed Study Notes
 
-> **Source:** [PayloadsAllTheThings/Client Side Path Traversal](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Client%20Side%20Path%20Traversal)
 > **Also Known As:** "On-site Request Forgery"
 > **Audience:** Cybersecurity students, ethical hackers, bug bounty hunters
 > **Disclaimer:** শুধুমাত্র authorized system এবং lab environment এ practice করো।

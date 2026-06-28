@@ -1,6 +1,5 @@
 # 🔐 Brute Force & Rate Limit Bypass — Detailed Study Notes
 
-> **Source:** [PayloadsAllTheThings/Brute Force Rate Limit](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Brute%20Force%20Rate%20Limit)
 > **Audience:** Cybersecurity students, ethical hackers, CTF players
 > **Disclaimer:** শুধুমাত্র authorized system এবং lab environment এ practice করো। Unauthorized use illegal।
 
